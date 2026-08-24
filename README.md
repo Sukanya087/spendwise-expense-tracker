@@ -1,32 +1,56 @@
-# React + TypeScript + Vite
+# SpendWise Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Description
+SpendWise is a personal expense tracker built with React and TypeScript. It helps users record transactions, organize spending by category, monitor budget progress, and review monthly financial activity from a single dashboard. The app stores data locally in the browser, making it lightweight and easy to use without a backend.
 
-Currently, two official plugins are available:
+## Features
+- Add and remove expense entries
+- Track merchant, category, amount, payment method, date, and optional notes
+- Search and filter transactions
+- View total spending, daily averages, and monthly budget usage
+- Review category-based spending breakdowns
+- Switch between Overview and Transactions views
+- Manage budget data and category summaries
+- Export stored expense data as JSON and clear local data when needed
+- Responsive layout for desktop and mobile views
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technology Used
+- React
+- TypeScript
+- Vite
+- lucide-react
+- Local browser storage with localStorage
 
-## React Compiler
+## How to Install
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sukanya087/spendwise-expense-tracker.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd spendwise-expense-tracker
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run Locally
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+2. Open the local URL shown in the terminal, usually:
+   ```bash
+   http://localhost:5173
+   ```
+3. To create a production build:
+   ```bash
+   npm run build
+   ```
 
-## Expanding the Oxlint configuration
+## GitHub Repository URL
+https://github.com/Sukanya087/spendwise-expense-tracker
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Live Application URL
+Not available. This repository does not currently include a configured live deployment URL.
